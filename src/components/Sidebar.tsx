@@ -21,11 +21,13 @@ const Sidebar = () => {
                 <span className="text-2xl">Law Chatbot</span>
             </div>
 
-            <div className="flex flex-col p-4 justify-between h-full">
-                <div className="flex flex-col gap-y-8">
-                    <div className="flex justify-between items-center pr-4 cursor-pointer">
+            <div className="flex flex-col py-4 pb-6 justify-between h-full">
+
+                <div className="flex flex-col gap-y-8 px-2">
+                    <div className="flex justify-between items-center p-2 cursor-pointer hover:bg-gray-200 rounded-lg">
                       <span className="text-lg">New chat</span> <FaRegPenToSquare className="text-lg"/>
                     </div>
+                    
                     <ul className="text-sm flex flex-col gap-y-2 border border-slate-200 rounded-lg p-2">
                       <li>History</li>
                       <li>History</li>
@@ -33,7 +35,7 @@ const Sidebar = () => {
                     </ul>
                 </div>
 
-                <div className="flex items-center space-x-2 cursor-pointer">
+                <div className="flex items-center space-x-2 cursor-pointer p-2 mx-2 hover:bg-gray-200 rounded-lg">
                   <IoSettingsOutline className="text-xl" /> <span className="font-medium">Settings</span>
                 </div>
             </div>
