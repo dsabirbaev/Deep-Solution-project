@@ -1,9 +1,14 @@
 
+"use client";
+
 import { IoSettingsOutline } from "react-icons/io5";
 import { FaRegPenToSquare } from "react-icons/fa6";
 
 
 const Sidebar = () => {
+
+ 
+  
   return (
     <div className="fixed top-0 left-0 bottom-0 h-screen dark:bg-gray-900 bg-gray-100
      w-[330px] border-r dark:border-gray-800 border-gray-200 pt-4">
@@ -17,7 +22,7 @@ const Sidebar = () => {
             </div>
 
             <div className="flex flex-col p-4 justify-between h-full">
-                <div className="flex flex-col gap-y-4">
+                <div className="flex flex-col gap-y-8">
                     <div className="flex justify-between items-center pr-4 cursor-pointer">
                       <span className="text-lg">New chat</span> <FaRegPenToSquare className="text-lg"/>
                     </div>
