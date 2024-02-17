@@ -11,17 +11,17 @@ const Sidebar = () => {
 
         <div className="flex flex-col space-y-10 h-full">
 
-            <div className="flex items-center space-x-1 pl-2">
+            <div className="flex items-center space-x-1 pl-4">
                 
                 <span className="text-2xl">Law Chatbot</span>
             </div>
 
             <div className="flex flex-col p-4 justify-between h-full">
-                <div className="flex flex-col gap-y-2">
+                <div className="flex flex-col gap-y-4">
                     <div className="flex justify-between items-center pr-4 cursor-pointer">
                       <span className="text-lg">New chat</span> <FaRegPenToSquare className="text-lg"/>
                     </div>
-                    <ul className="text-sm flex flex-col gap-y-2">
+                    <ul className="text-sm flex flex-col gap-y-2 border border-slate-200 rounded-lg p-2">
                       <li>History</li>
                       <li>History</li>
                       <li>History</li>

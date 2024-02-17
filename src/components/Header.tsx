@@ -6,6 +6,8 @@ import {
   AvatarImage,
 } from "@/components/ui/avatar";
 
+import Modal from "./Modal";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
@@ -18,10 +20,13 @@ const Header = () => {
             <ModeToggle/>
           </span>
           <span className="cursor-pointer">
-            <Avatar>
+            {/* <Avatar>
               <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
               <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
+            </Avatar> */}
+
+            {/* <Button variant="outline">Login</Button> */}
+            <Modal />
           </span>
       </div>
     </div>

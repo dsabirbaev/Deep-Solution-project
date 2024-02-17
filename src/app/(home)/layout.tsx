@@ -15,8 +15,8 @@ export default function HomeLayout({
         <Header />
         <Sidebar />
 
-        <section className="min-h-screen bg-white dark:bg-black pl-[330px] pt-[10vh]">
-			    <div className="p-4">
+        <section className="h-screen bg-white dark:bg-black pl-[330px] pt-[10vh]">
+			    <div className="p-4 h-full">
             {children}
 			    </div>
 		    </section>
