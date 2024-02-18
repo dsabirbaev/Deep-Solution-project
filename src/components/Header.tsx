@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <div className="fixed top-0 left-0 pl-72 right-0-0 w-full h-[10vh] dark:bg-gray-900
+    <div className="fixed top-0 left-0 z-50 pl-72 right-0-0 w-full h-[10vh] dark:bg-gray-900
     bg-[#f0f4f8] flex items-center justify-end">
       
 
