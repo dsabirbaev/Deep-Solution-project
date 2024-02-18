@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Input } from "@/components/ui/input";
+
 import { RiSendPlaneFill } from "react-icons/ri";
 
 import usePost from "@/service/post/usePost";
@@ -66,12 +66,14 @@ export default function Home() {
          }
        
         </div>
-        <div className="flex items-center justify-center relative gap-x-2">
-          <Input value={text} onChange={(e) => setText(e.target.value)} onKeyDown={handleKeyDown} type="text" placeholder="Message..." className="max-w-[900px] p-4 py-6 text-lg"/>
-          
-          <Button onClick={() => sendData()} className="absolute top-[7px] right-[9%] text-lg" title="Send">
-            <RiSendPlaneFill />
-          </Button>
+        <div className="flex items-center justify-center">
+        
+         <div className="w-[900px] flex items-center justify-center border px-2 rounded-lg">
+            <input type="text" value={text} onChange={(e) => setText(e.target.value)} onKeyDown={handleKeyDown}  placeholder="Message..." className="p-4 py-4 focus:ring-0 appearance-none outline-0 border-none text-lg w-full"/>
+            <Button onClick={() => sendData()} className="text-lg py-6" title="Send">
+              <RiSendPlaneFill />
+            </Button>
+         </div>
 
         </div>
       </div>
