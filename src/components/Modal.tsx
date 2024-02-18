@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-
+import { AiOutlineLogin } from "react-icons/ai";
 import {
     Card,
     CardContent,
@@ -31,7 +31,7 @@ const Modal = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline">Login</Button>
+        <Button variant="outline" className="px-2"><AiOutlineLogin className="text-2xl"/></Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]  p-2">
         <Tabs defaultValue="account" className="w-[400px] pt-8 ">
