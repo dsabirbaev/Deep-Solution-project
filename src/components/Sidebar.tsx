@@ -25,7 +25,7 @@ const Sidebar = () => {
             <div className="flex flex-col py-4 pb-6 justify-between h-full">
 
                 <div className="flex flex-col gap-y-8 px-2">
-                    <div className="flex justify-between items-center p-2 px-3 cursor-pointer hover:bg-gray-200 hover:rounded-2xl hover:dark:text-black rounded-lg border border-slate-300 rounded-2xl">
+                    <div className="flex justify-between items-center p-2 px-3 cursor-pointer hover:bg-gray-200 hover:rounded-2xl hover:dark:text-black  border border-slate-300 rounded-2xl">
                       <span className="text-lg">Yangi chat</span> <FaRegPenToSquare className="text-md"/>
                     </div>
                     
@@ -47,9 +47,12 @@ const Sidebar = () => {
                   <div className="flex space-x-2 items-center hover:rounded-2xl hover:bg-gray-200 p-2 hover:dark:text-black">
                     <IoSettingsOutline className="text-lg" /> <span className="text-[14px]">Sozlamalar</span>
                   </div>
-                 <div className="flex items-center gap-x-1 mt-2 p-2">
-                    <GoDotFill className="text-[12px]" /> <p className="text-[12px]">Toshkent, Oʻzbekiston</p>
-                 </div>
+                <div className="p-2">
+                  <div className="flex items-center gap-x-1 mt-2">
+                      <GoDotFill className="text-[12px]" /> <p className="text-[12px]">Toshkent, Oʻzbekiston</p>
+                  </div>
+                  <p className="text-[10px] pl-4">Deep Solution © 2024</p>
+                </div>
                 </div>
             </div>
         </div>
